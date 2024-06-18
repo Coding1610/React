@@ -4,7 +4,7 @@ This repository is designed to be a valuable resource for both beginners and exp
 <br>
 Detailed Notes : Covering key concepts, features, and best practices in React.
 <br>
-Code Examples : Practical examples to demonstrate how to apply the concepts in real-world scenarios.
+Code Examples : Practical examples to demonstrate how to apply the concepts in real-world scenarios. Using HTML , JavaScript , Tailwind CSS & Obvious React.
 <br>
 Topics Covered
 <br>
