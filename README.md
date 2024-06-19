@@ -25,3 +25,5 @@ Topics Covered
 6. Handling Events
 <br>
 7. Hooks
+<br>
+8. Custom Hooks
