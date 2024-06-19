@@ -1,6 +1,5 @@
 # React
 <br>
-<br>
 This repository is designed to be a valuable resource for both beginners and experienced developers looking to deepen their understanding of React. It contains:
 <br>
 <br>
