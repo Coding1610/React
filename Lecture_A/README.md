@@ -17,6 +17,6 @@ Theory
 5. React controled UI updation
 6. React ~ Components Based Libary : Use can use same component so many time.
 
---> React Documentation : https://react.dev/
+-> React Documentation : https://react.dev/
 
---> Fiber Documentation : https://github.com/acdlite/react-fiber-architecture
+-> Fiber Documentation : https://github.com/acdlite/react-fiber-architecture
