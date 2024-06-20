@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 
 Theory
 
-1. JavaScript XML (JSX)
+1. JavaScript XML [JSX]
 
 --> JSX stands fro JS XML. It is syntax extension to JS.
 --> JSX is a preprocessor step that adds XML syntax to JS.
