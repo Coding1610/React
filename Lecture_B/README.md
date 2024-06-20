@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 
 Theory
 
-_Function Components & Class Components_
+_Function Component & Class Component_
 
 
 1. Functional Components
