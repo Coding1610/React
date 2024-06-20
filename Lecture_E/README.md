@@ -32,4 +32,4 @@ _Without Constructor_
 --> Access : {this.state.keyName}
 --> In State property u can make , string , number , bool , function , array , object and PROPS etc.. Like an Object Structure.
 
---> You can use any of them.
+--> You can use any of them...
