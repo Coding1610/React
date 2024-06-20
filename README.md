@@ -16,16 +16,20 @@ Topics Covered
 <br>
 2. Fiber
 <br>
-3. JSX and Rendering Elements
+3. Function Component & Class Component
 <br>
-4. Components and Props
+4. JavaScript JSX
 <br>
-5. State and Lifecycle
+5. Type Checking : Props-Type
 <br>
-6. Handling Events
+6. State
 <br>
-7. Hooks
+7. Event Handling
 <br>
-8. Custom Hooks
+8. Lifecycle Methods
 <br>
-9. Conditional Rendering
+9. Hooks
+<br>
+10. Custom Hook
+<br>
+11. Conditional Rendering
