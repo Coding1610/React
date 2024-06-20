@@ -12,10 +12,10 @@ Theory
 
 1. Update/Modify State
 
---> 1. Arg : Object
+-> 1. Arg : Object
 --> this.setState({key:"value"});
 
---> 2. Arg : Function
+-> 2. Arg : Function
 --> this.setState(function(state,props){});
 --> It accepts a function rather than an object
 --> It recives the previous state as the first argument.
