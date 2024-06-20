@@ -27,3 +27,5 @@ Topics Covered
 7. Hooks
 <br>
 8. Custom Hooks
+<br>
+9. Conditional Rendering
