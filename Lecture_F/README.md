@@ -55,4 +55,4 @@ Theory
 --> Here in arrow function "event" is React Event with property.
 --> And in Bind Method "event" pass automatic. 
 
---> In normal case if we pass para/arg using () then automatic at the time render method call ho jayega. So we can not pass like this
+--> In normal case if we pass para/arg using () then automatic at the time render method call ho jayega. So we can not pass like this.
