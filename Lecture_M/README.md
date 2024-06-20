@@ -29,4 +29,4 @@ _Bad Practice_
 _Good Practice_
 7. const [name,setName] = useState("Yash");
 
-8. Here state value is string , number , bool , object , array  anything...
+8. Here state value is string , number , bool , object , array  anything..
