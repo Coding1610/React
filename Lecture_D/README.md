@@ -51,4 +51,4 @@ Comp.defaultProps = {
     ...
 }
 
---> if u not follow this step then console give warning.
+--> If u not follow this step then console give warning.
