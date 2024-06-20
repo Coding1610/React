@@ -9,7 +9,6 @@ _Phase OF Component_
 4. Unmounting : Unmounting is the process of removing components from the DOM.
 
 
-
 _LifeCycle Methods_
 
 --> Each Component has several "Lifecycle Methods" that you can override to run code at particular times in the process.
