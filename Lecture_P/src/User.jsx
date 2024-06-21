@@ -3,7 +3,7 @@ import React, { PureComponent } from 'react';
 
 /* Ex : 1 :: If
 
-export default function User() {
+export default function User(props) {
   return (
     <>
     <div className='m-10 font-bold text-2xl flex flex-col w-max gap-3'>
@@ -18,7 +18,7 @@ export default function User() {
 
 /* Ex : 2 : Inlne If
 
-export default function User() {
+export default function User(props) {
   return (
     <>
     <h1 className='m-10 font-bold text-2xl'>Prime Member </h1>

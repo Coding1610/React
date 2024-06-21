@@ -6,7 +6,7 @@ import React, { PureComponent } from 'react';
 
 /* Ex : 1 : If
 
-export default function App() {
+export default function App(props) {
 
   // const isRegistered = props.consumer;
   const isRegistered = true;
@@ -22,7 +22,7 @@ export default function App() {
 
 /* Ex : 2 : Inline If & Logical Op.
 
-export default function App() {
+export default function App(props) {
 
   // const prime = props.primeMember;
   const prime = true;

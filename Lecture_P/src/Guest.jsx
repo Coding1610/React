@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 
 /* Ex : 1 : If
 
-export default function Guest() {
+export default function Guest(props) {
   return (
     <>
     <div className='m-10 font-bold text-2xl flex flex-col w-max gap-3'>
