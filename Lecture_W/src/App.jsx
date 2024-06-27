@@ -60,6 +60,7 @@ export default class App extends Component {
     this.myRef = React.createRef();
   };
 
+  // Handler
   handleSubmit = (e) => {
     e.preventDefault();
     this.setState({valueH1:this.myRef.current.value});
