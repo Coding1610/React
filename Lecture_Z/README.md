@@ -76,3 +76,9 @@ _Context Consumer_
 </myContext.Consumer>       
 
 --> valueName & functionName same as Parent Component 
+
+
+_Context Type_
+
+1. The contextType property on a class be assigned a Context object created by React.createContext().
+2. This lets you consume the nearest current value of that Context type using this.context / static contextType = myContext;

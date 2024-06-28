@@ -16,6 +16,7 @@ export default class Guest extends Component {
 
 */
 
+// Context
 
 import React, { Component } from 'react'
 import { myContext } from './App'
@@ -28,13 +29,13 @@ export default class extends Component {
         <h1>Guest Component </h1>
         <myContext.Consumer>
 
-            {/* { data => 
-            <>
-            <h1 className='text-gray-600'> Name : {data.name}</h1>
-            <h1 className='text-gray-600'>Number : {data.number}</h1>
-            <h1 className='text-gray-600'>Car : {data.car}</h1> 
-            </>
-            } */}
+            {/* // { data => 
+            // <>
+            // <h1 className='text-gray-600'> Name : {data.name}</h1>
+            // <h1 className='text-gray-600'>Number : {data.number}</h1>
+            // <h1 className='text-gray-600'>Car : {data.car}</h1> 
+            // </>
+            // }  */}
 
             { ({value,functionName}) => 
             <>
@@ -49,3 +50,34 @@ export default class extends Component {
     )
   }
 }
+
+
+/* Context Type
+
+import React, { Component } from 'react'
+import { myContext } from './App'
+
+export default class extends Component {
+  
+  // Context Type
+  static contextType = myContext;
+  
+  render() {
+    console.log(this.context);
+    return (
+    <>
+    <div>
+        <h1>Guest Component </h1>
+        <div>
+            <h1> <span className='text-black'> Name : </span> {this.context.value.name}</h1>
+            <h1> <span className='text-black'> Number : </span>{this.context.value.number}</h1>
+            <h1> <span className='text-black'> Car : </span>{this.context.value.car}</h1>
+            <button onClick={this.context.functionName} className='p-3 bg-yellow-400 rounded-md hover:bg-yellow-300 text-black hover:shadow-xl'> Change Number </button>
+        </div>
+    </div>
+    </>
+    )
+  }
+}
+
+*/
