@@ -47,3 +47,7 @@ Topics Covered
 17. Controlled Component
 <br>
 18. Uncontrolled Component : Ref / Callback Ref
+<br>
+19. LSU : Lifting State Up
+<br>
+20. Context API
