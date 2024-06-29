@@ -8,23 +8,21 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Theory
+# Theory
 
-1. State
+# _1. State_
 
 --> State is similar to props , but it private and fully controlled by the component. We can create state only in class Component. It is possible to update the state/Modify the State.
 --> Two way to Create State
 
-
-_With Constructor_
+# _With Constructor_
 
 --> When the component class is created, the constructore is the first method called, so its the right place to add state.
 --> The Class instance has already been created in memory, so you cann use "this" to set properties on it.
 --> when we write a constructor, make sure to call the parent class constructor by "super(props)".
 --> When you call super with props. React will make props avilabel across the component throgh "this.props".
 
-
-_Without Constructor_
+# _Without Constructor_
 
 --> The State property is referred as State.
 --> This is a Class Instance Property.
