@@ -10,6 +10,7 @@ Currently, two official plugins are available:
 
 # Theory
 
+<<<<<<< HEAD
 # _Update/Modify State_
 
 # 1. Arg : Object
@@ -25,3 +26,15 @@ this.setState(function(state,props){});
 1. It accepts a function rather than an object
 2. It recives the previous state as the first argument.
 3. The Props at the time the update is applied as the second argument.
+=======
+# _1. Update/Modify State_
+
+Arg : Object
+1. this.setState({key:"value"});
+
+Arg : Function
+1. this.setState(function(state,props){});
+2. It accepts a function rather than an object
+3. It recives the previous state as the first argument.
+4. The Props at the time the update is applied as the second argument.
+>>>>>>> 6b9ea343a4c45640ff8b9afc90f6691642605ba8

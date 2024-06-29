@@ -16,6 +16,7 @@ Currently, two official plugins are available:
 
 <h3>Syntax</h3>
 
+# Syntax
 import PropTypes from 'prop-types'
 function Comp(props){
     return(
@@ -58,4 +59,8 @@ Comp.defaultProps = {
     ...
 }
 
+<<<<<<< HEAD
 4. If u not follow this step then console give warning.
+=======
+--> If u not follow this step then console give warning.
+>>>>>>> 6b9ea343a4c45640ff8b9afc90f6691642605ba8

@@ -21,6 +21,7 @@ Currently, two official plugins are available:
 3. Scrolling Page.
 4. Hovering an Elemnt.
 
+<<<<<<< HEAD
 2. Handling events with React element is very similat to handling events on DOM elements. There are some syntactic differences.
 3. React events are named using camelCase, rather than lowercase.
 4. With JSX you pass a function as the evennt handler , rather than a string.
@@ -35,12 +36,21 @@ Currently, two official plugins are available:
 7. Koi bhi elemnt ka Default Event ko Stop karne ke liye,
 
 <h3>Syntax</h3>
+=======
+<button onClick = {functionName}> Click Me </button> // Function Coomp
+<button onClick = {this.functionName}> Click Me </button> // Class Comp
+
+--> In class comp. , function create karne ke liye function keyword likhna nahi hai.
+--> Normal you use Funtion Comp. but when u want to play with state then u need to use Class Comp.
+--> Koi bhi elemnt ka Default Event ko Stop karne ke liye,
+>>>>>>> 6b9ea343a4c45640ff8b9afc90f6691642605ba8
 
 1. In HTML : <a href="#" onclick="function();return false">Click </a>
 2. In React :   function functionName(e){
                     e.preventDefault();
                 };
 
+<<<<<<< HEAD
 8. Class Comp. me Normal function create karishu to aema "this" keyword no use nai kari sakiye , ae mate constructor ma this.handleClick = this.handleClick.bind(this);
 9. And Arrow Function me aese hi use kar sakate haii.
 
@@ -50,6 +60,12 @@ Currently, two official plugins are available:
 <h3>Syntax</h3>
 
 <button onClick = {(event) => this.functionName(id1,id2,id3...,event)}> Click Me </button>
+=======
+--> Class Comp. me Normal function create karishu to aema "this" keyword no use nai kari sakiye , ae mate constructor ma this.handleClick = this.handleClick.bind(this);
+--> And Arrow Function me aese hi use kar sakate haii.
+
+# _2. Passing Argument to Event Handlers_
+>>>>>>> 6b9ea343a4c45640ff8b9afc90f6691642605ba8
 
 2. Bind Method
 <h3>Syntax</h3>
@@ -60,4 +76,8 @@ Currently, two official plugins are available:
 4. Here in arrow function "event" is React Event with property.
 5. And in Bind Method "event" pass automatic. 
 
+<<<<<<< HEAD
 6. In normal case if we pass para/arg using () then automatic at the time render method call ho jayega. So we can not pass like this.
+=======
+--> In normal case if we pass para/arg using () then automatic at the time render method call ho jayega. So we can not pass like this.
+>>>>>>> 6b9ea343a4c45640ff8b9afc90f6691642605ba8
