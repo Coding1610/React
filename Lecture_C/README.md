@@ -8,9 +8,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Theory
+# Theory
 
-1. JavaScript XML [JSX]
+# _1. JavaScript XML [JSX]_
 
 --> JSX stands fro JS XML. It is syntax extension to JS.
 --> JSX is a preprocessor step that adds XML syntax to JS.
@@ -19,7 +19,8 @@ Theory
 --> JSX is easier to read and write. Babel transform these expressions into a actual JS code.
 --> It also allows React to show more useful error and warning messages.
 
---> Examples : Babel Parse A to B
+# Example
+Babel Parse A to B
 
 A. const el = <h1> Hello Yash </h1>
 B. React.CreateElement("h1" , null , "Hello Yash");
@@ -37,24 +38,19 @@ A. const el = <Component name="Yash"/>
 B. (Component , {name:"Yash"}); <Component/>
 
 
-2. JS Expressions 
+# _2. JS Expressions_ 
 
 --> We put any valid JS expression inside the curly braces in JSX. You can pass any JS expression as children, by enclosing it with {}.
 
-
-3. Specifying Attributes with JSX
+# _3. Specifying Attributes with JSX_
 
 --> You may use quotes to specify string literals as attributes.
 --> <tag attributeName = "value"> Hello </tag>
-
 --> Since JSX is closer to JS than to HTML , React DOM uses camelCase Property naming Convention insted of HTML attribute names.
 
-
-4. Children in JSX
+# _4. Children in JSX_
 
 --> In JSX expression that contain both an opening tag and a closing tag, the content between those tags in passed as a special prop,
-
 --> prop : props.children
-
 --> <h1> Yashu </h1>
 --> Here children = "Yashu".
