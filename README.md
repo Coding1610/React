@@ -1,7 +1,6 @@
 # React Notes and Code
 <br>
 Welcome to the React Notes and Code repository! This repository is dedicated to providing comprehensive notes and practical code examples for learning and mastering React, a popular JavaScript library for building user interfaces.
-<br>
 
 # About This Repository
 <br>
