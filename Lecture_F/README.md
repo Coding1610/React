@@ -8,9 +8,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Theory
+# Theory
 
-1. Event Handling
+# _1. Event Handling_
 
 --> The action to which JS can respond are called Events.
 --> 1. Clicking an elemnt
@@ -24,14 +24,11 @@ Theory
 2. With JSX you pass a function as the evennt handler , rather than a string.
 
 <button onClick = {functionName}> Click Me </button> // Function Coomp
-
 <button onClick = {this.functionName}> Click Me </button> // Class Comp
 
 --> In class comp. , function create karne ke liye function keyword likhna nahi hai.
-
 --> Normal you use Funtion Comp. but when u want to play with state then u need to use Class Comp.
-
--->> Koi bhi elemnt ka Default Event ko Stop karne ke liye,
+--> Koi bhi elemnt ka Default Event ko Stop karne ke liye,
 
 1. In HTML : <a href="#" onclick="function();return false">Click </a>
 2. In React :   function functionName(e){
@@ -39,11 +36,9 @@ Theory
                 }
 
 --> Class Comp. me Normal function create karishu to aema "this" keyword no use nai kari sakiye , ae mate constructor ma this.handleClick = this.handleClick.bind(this);
-
 --> And Arrow Function me aese hi use kar sakate haii.
 
-
-2. Passing Argument to Event Handlers
+# _2. Passing Argument to Event Handlers_
 
 --> Arrow Function
 --> <button onClick = {(event) => this.functionName(id1,id2,id3...,event)}> Click Me </button>
