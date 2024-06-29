@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Theory
+# Theory
 
 1. Function return only 1 element 
 2. <> N elemnts </>
@@ -17,6 +17,6 @@ Theory
 5. React controled UI updation
 6. React ~ Components Based Libary : Use can use same component so many time.
 
--> React Documentation : https://react.dev/
+# React Documentation : https://react.dev/
 
--> Fiber Documentation : https://github.com/acdlite/react-fiber-architecture
+# iber Documentation : https://github.com/acdlite/react-fiber-architecture
