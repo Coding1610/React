@@ -8,14 +8,14 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Theory
+# Theory
 
-1. Type-Chceking : Props-Type
+# _1. Type-Chceking : Props-Type_
 
 --> If u want to make restriction on props key/value then u can.
 
+# Syntax
 import PropTypes from 'prop-types'
-
 function Comp(props){
     return(
         <>
