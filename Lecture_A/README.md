@@ -10,6 +10,7 @@ Currently, two official plugins are available:
 
 # Theory
 
+<h3>Theory</h3>
 1. Function return only 1 element 
 2. <> N elemnts </>
 3. React ke code me hum Evaluated JS hi likh sakte hai : Means Final Output of JS code. 
