@@ -8,14 +8,14 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Theory
+# Theory
 
-1. Update/Modify State
+# _1. Update/Modify State_
 
--> 1. Arg : Object
+1. Arg : Object
 --> this.setState({key:"value"});
 
--> 2. Arg : Function
+2. Arg : Function
 --> this.setState(function(state,props){});
 --> It accepts a function rather than an object
 --> It recives the previous state as the first argument.
