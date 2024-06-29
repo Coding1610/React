@@ -22,13 +22,13 @@ Currently, two official plugins are available:
 # Example
 Babel Parse A to B
 
-A. const el = <h1> Hello Yash </h1>
+A. const el = <h1Tag>Hello Yash</h1Tag>
 B. React.CreateElement("h1" , null , "Hello Yash");
 
-A. const el = <h1 className = "bg" > Hello </h1>
+A. const el = <h1Tag className = "bg" > Hello </h1Tag>
 B. ("h1" , {className:"bg"} , "Hello");
 
-A. const el = <h1> Hello {name} </h1>
+A. const el = <h1Tag> Hello {name} </h1Tag>
 B. ("h1" , null , "Hello" , name );
 
 A. const el = <Component/>
@@ -52,5 +52,5 @@ B. (Component , {name:"Yash"}); <Component/>
 
 --> In JSX expression that contain both an opening tag and a closing tag, the content between those tags in passed as a special prop,
 --> prop : props.children
---> <h1> Yashu </h1>
+--> <h1Tag> Yashu </h1Tag>
 --> Here children = "Yashu".
