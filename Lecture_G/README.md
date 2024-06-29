@@ -12,11 +12,11 @@ Currently, two official plugins are available:
 
 # _1. Update/Modify State_
 
-1. Arg : Object
---> this.setState({key:"value"});
+Arg : Object
+1. this.setState({key:"value"});
 
-2. Arg : Function
---> this.setState(function(state,props){});
---> It accepts a function rather than an object
---> It recives the previous state as the first argument.
---> The Props at the time the update is applied as the second argument.
+Arg : Function
+1. this.setState(function(state,props){});
+2. It accepts a function rather than an object
+3. It recives the previous state as the first argument.
+4. The Props at the time the update is applied as the second argument.
