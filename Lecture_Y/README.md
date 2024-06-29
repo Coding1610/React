@@ -8,10 +8,10 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Theory
+# Theory
 
 
-_Lifting State Up_
+# _Lifting State Up_
 
 1. State ke data ka access hum us class me hi kar sakte hai jisme create hua hai because state has local scope.
 2. When we want to access same state data in parent or child class then we pass data as "props".
