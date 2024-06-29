@@ -10,7 +10,6 @@ Currently, two official plugins are available:
 
 # Theory
 
-
 # _Lifting State Up_
 
 1. State ke data ka access hum us class me hi kar sakte hai jisme create hua hai because state has local scope.

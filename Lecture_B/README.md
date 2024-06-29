@@ -8,28 +8,31 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Theory
+# Theory
 
-_Function Component & Class Component_
+# _Function Component & Class Component_
 
+# 1. Functional Components
 
-1. Functional Components
+<h3> Synax <h3>
 
---> function Comp_Name(props){
+function Comp_Name(props){
         return(
             <>
             </>
         )
     }
---> Comp. ae js function jevu j che
---> with arg. "Props(Object)"
---> it return JSX / HTML 
---> access : props.key
 
+1. Comp. ae js function jevu j che.
+2. With arg. "Props(Object)".
+3. It return JSX / HTML. 
+4. Access : props.key.
 
-2. Class Components
+# 2. Class Components
 
---> class Comp_Name extends PureComponent{
+<h3> Synax <h3>
+
+class Comp_Name extends PureComponent{
         render(){
             return(
                 <>
@@ -37,13 +40,15 @@ _Function Component & Class Component_
             )
         }
     }
---> same as js class
---> no arg.
---> it return JSX / HTML
---> access : this.props.key
 
+1. Same as js class.
+2. No arg.
+3. It return JSX / HTML.
+4. Access : this.props.key.
 
-3. Composing Components
+#3. Composing Components
+
+<h3> Synax <h3>
 
 function App(){
     return(
@@ -56,27 +61,28 @@ function App(){
     )
 }
 
---> Components can refer to other components in thier output.
---> This let us use the same output abstraction for any level of detail.
+1. Components can refer to other components in thier output.
+2. This let us use the same output abstraction for any level of detail.
 
+# 4. When Use Function Comp.
 
-4. When Use Function Comp.
+1. Use functional comp if u arre writing a presentational comp. which does not have its own state or needs to access a lifecycle hook. You cannot use setState() in ur comp. because Functional Comp. are plain JavaScript Function.
 
---> Use functional comp if u arre writing a presentational comp. which does not have its own state or needs to access a lifecycle hook. You cannot use setState() in ur comp. because Functional Comp. are plain JavaScript Function.
+# 5. When Use Class Comp.
 
+1. Use class comp. if u need state or need to access lifecycle hook because all lifecycle hooks are coming from React.Component which you extend from in class component.
 
-5. When Use Class Comp.
+# 6. Props
 
---> Use class comp. if u need state or need to access lifecycle hook because all lifecycle hooks are coming from React.Component which you extend from in class component.
-
-
-6. Props
+<h3> Synax <h3>
 
 function Component(props){
     return(
         <h1> hello {props.name} </h1>
     )
 }
+
+<h3> Synax <h3>
 
 function App(){
     return(
@@ -86,8 +92,8 @@ function App(){
     )
 }
 
---> When React sees an element representing a user defined component, it passes JSX attribute to this Component as a single Object. We call this object "props".
---> same for class & function
---> Whether you declare a component as a function or a class, it must never modify its own props.
---> All React Components must act like pure function with repect to their props.
---> Props are "READ-ONLY".
+1. When React sees an element representing a user defined component, it passes JSX attribute to this Component as a single Object. We call this object "props".
+2. same for class & function.
+3. Whether you declare a component as a function or a class, it must never modify its own props.
+4. All React Components must act like pure function with repect to their props.
+5. Props are "READ-ONLY".

@@ -8,34 +8,36 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Theory
+# Theory
 
-_Hook : useEffect()_
+# _Hook : useEffect()_
 
 1. use Effect is hook for encapsulating code that has 'side effects'.
 2. If you are know React class lifecycle methods, you can think of useEffect hook as componentDidMount() , componentDidUpdate() , componentWillUnmount() Combined.
 
-3. useEffect(Function)
-4. useEffect(Function,Array)
+<h3>Syntax</h3>
 
-5. The function passed to hook will run after render is committed to the screen.
-6. Second Argument yo hook that is the array of values that the effect depends on.
-7. You can call useEffect as many times as you want.
+1. useEffect(Function)
+2. useEffect(Function,Array)
 
-8. useEffect( () => { functionCall() } , [depe_1 , depe_2 , depe_3 ..] );
+3. The function passed to hook will run after render is committed to the screen.
+4. Second Argument yo hook that is the array of values that the effect depends on.
+5. You can call useEffect as many times as you want.
 
-9. Page Load hone pe first time call hoga & Change of any dependencies par call hoga.
-10. It is call functionCall() on change of every Dependencies.
+<h3>Syntax</h3>
 
+useEffect( () => { functionCall() } , [depe_1 , depe_2 , depe_3 ..] );
 
-_What Does useEffect() do_
+6. Page Load hone pe first time call hoga & Change of any dependencies par call hoga.
+7. It is call functionCall() on change of every Dependencies.
+
+# _What Does useEffect() do_
 
 1. By using thishook, you tell your component needs to do something after render.
 2. React will remember the function you passed and call is later aftter performing the DOM updates.
 3. In this effect, we set the Document Title, we could also perform data fetching or call some other imperative API.
 4. Component Mount , Update & Unmount pe Call hoga.
 
-
-_Why is useEffect() called inside a Component_
+# _Why is useEffect() called inside a Component_
 
 1. Placing hook inside the component lets us access the state variable or any props right from the Effect.

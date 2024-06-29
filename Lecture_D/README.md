@@ -8,20 +8,23 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Theory
+# Theory
 
-1. Type-Chceking : Props-Type
+# _1. Type-Chceking : Props-Type_
 
---> If u want to make restriction on props key/value then u can.
+1. If u want to make restriction on props key/value then u can.
+
+<h3>Syntax</h3>
 
 import PropTypes from 'prop-types'
-
 function Comp(props){
     return(
         <>
         </>
     )
 }
+
+<h3>Syntax</h3>
 
 Comp.propTypes = {
     keyName : PT.string,
@@ -32,7 +35,9 @@ Comp.propTypes = {
     ...
 }
 
---> If u want ki ye key/value to aani hi chahiye then,
+2. If u want ki ye key/value to aani hi chahiye then.
+
+<h3>Syntax</h3>
 
 Comp.propTypes = {
     keyName : PT.string,
@@ -43,7 +48,9 @@ Comp.propTypes = {
     ...
 }
 
---> Default Props,
+3. Default Props,
+
+<h3>Syntax</h3>
 
 Comp.defaultProps = {
     keyName : "Yash",
@@ -51,4 +58,4 @@ Comp.defaultProps = {
     ...
 }
 
---> If u not follow this step then console give warning.
+4. If u not follow this step then console give warning.

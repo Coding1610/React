@@ -8,20 +8,23 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Theory
+# Theory
 
-_Lifecycle Method : Unmounting_
+# _Lifecycle Method : Unmounting_
 
 1. Unmounting is the process of removing component from DOM.
 2. The method is called when a component is being removed from the DOM,
 
---> componentWillUnmount()
+<h3>Syntax</h3>
 
+componentWillUnmount()
 
-_componentWillUnmount()_
+# _componentWillUnmount()_
 
 1. It is invoked immediately before a component is unmounted and destroyed.
 2. Perform any necessary cleanUp in this method, such as invalidating timers , canceling network.
 3. This is executed just before the component get removed from the DOM.
 
-4. componentWillUnmount(){}
+<h3>Syntax</h3>
+
+componentWillUnmount(){}

@@ -8,9 +8,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Theory 
+# Theory 
 
-_Keys_
+# _Keys_
 
 1. A "key" is a special string attribute you need to include when creating lists of elements.
 2. Keys help React identify which items have changed, are added, or are removed.
@@ -21,7 +21,7 @@ _Keys_
 7. Keys serve as a hint to React but they don't get passed to your componenets.
 8. If you need the same value in your components, pass it explicitly as a prop with a different name.
 
-_Note_
+# _Note_
 
 1. A good rule of thumb is elements inside the map() call need keys.
 2. Key should be specified inside the array.

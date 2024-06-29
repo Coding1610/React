@@ -8,14 +8,15 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Theory
+# Theory
 
-_Lists_
+# _Lists_
 
 1. You can build collections of elements and include them in JSX using curly braces {}.
 
-const arr = [1,2,3,4,5];
+<h3>Example</h3>
 
+const arr = [1,2,3,4,5];
 state = {
 
     user : [{ id:12 , name:"Yash" , password:"ypfh7@#$16" },
@@ -25,11 +26,16 @@ state = {
     isLoggedIn : false
 }
 
-_Iteration using map() Method_
+
+# _Iteration using map() Method_
 
 1. The map() method creates a new array with the result of calling a provided function on every element in the calling array.
 2. map calls a provided callback function once for each element in an array, in order and returns a new array from the result.
 
+<h3>Syntax</h3>
+
 map( callback( currValue , index , array ) , thisArg );
 
-ex : map((num,index) => {return num});
+<h3>Example</h3>
+
+map((num,index) => {return num});
