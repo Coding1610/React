@@ -52,3 +52,5 @@ This repository is designed to be a valuable resource for both beginners and exp
 <br>
 22. Error Boundaries
 <br>
+23. Strict Mode
+<br>
