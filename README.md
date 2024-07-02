@@ -50,3 +50,5 @@ This repository is designed to be a valuable resource for both beginners and exp
 <br>
 21. HOC : Higher Order Component
 <br>
+22. Error Boundaries
+<br>
