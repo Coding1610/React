@@ -12,7 +12,7 @@
 
 # _Rules Of Hooks_
 
-1. Only call Hooks at the top level - we should not call Hooks inside loops , conditions or nested functions.
+1. Only call Hooks at the top level - We should not call Hooks inside loops , conditions or nested functions.
 2. Instead, always use Hooks at the top level of your React Functions.
 3. Only call Hooks from React Functions - We should not call Hooks from regular JS Functions.
 4. Instead, call Hooks from React function components or call Hooks from custom Hooks.
