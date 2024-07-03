@@ -16,7 +16,7 @@ Currently, two official plugins are available:
 2. Error boundaries cattch error during rendering, in lifecycle method, and in Constructor of the whole tree below them.
 3. A class component become an error boundary if it defines either(or both) of the lifecycle method _static getDerivedStateFromError()_ or __componentDidCatch()_.
 
-# _Error Boundaries doo not catch error for_
+# _Error Boundaries do not catch error for_
 
 1. Event Handler
 2. Asynchronous code
@@ -30,14 +30,12 @@ Currently, two official plugins are available:
 3. Use this method to render a fallback UI after an error has been thrown.
 
 <h3> Syntax </h3>
-
 static getDerivedStateFromError(error){};
 
 # _componentDidCatch()_
 
 1. This lifecycle method is invoked after an error has been thrown by a descendant component.
-2. Use this methdo to log error information.
+2. Use this method to log error information.
 
 <h3> Syntax </h3>
-
 componentDidCatch(error,information){};
