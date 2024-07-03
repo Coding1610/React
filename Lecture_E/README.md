@@ -18,7 +18,7 @@ Currently, two official plugins are available:
 # _With Constructor_
 
 1. When the component class is created, the constructore is the first method called, so its the right place to add state.
-2. The Class instance has already been created in memory, so you cann use "this" to set properties on it.
+2. The Class instance has already been created in memory, so you can use "this" to set properties on it.
 3. when we write a constructor, make sure to call the parent class constructor by "super(props)".
 4. When you call super with props. React will make props avilabel across the component throgh "this.props".
  
