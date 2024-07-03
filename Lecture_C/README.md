@@ -24,7 +24,7 @@ Currently, two official plugins are available:
 Babel Parse A to B
 <br>
 
-A. const el = <h1Tag>Hello Yash</h1Tag>
+A. const el = <> Hello Yash </>
 <br>
 B. React.CreateElement("h1" , null , "Hello Yash");
 
