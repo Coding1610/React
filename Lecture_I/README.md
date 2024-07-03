@@ -77,4 +77,4 @@ static getDerivedStateFromProps(props,state){}
 componentDidMount(){}
 
 Execution sequence of this 4 method,
-constructor(){} --> static getDerivedStateFromProps(){} --> render(){} --> componentDidMount(){}
+constructor(){} -> static getDerivedStateFromProps(state,props){} -> render(){} -> componentDidMount(){}
