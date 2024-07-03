@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 
 # Theory
 
-# _1. Type-Chceking : Props-Type_
+# _Type-Chceking : Props-Type_
 
 # 1. If u want to make restriction on props key/value then u can.
 
