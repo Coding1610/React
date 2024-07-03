@@ -12,11 +12,9 @@ Currently, two official plugins are available:
 
 # _1. Type-Chceking : Props-Type_
 
-1. If u want to make restriction on props key/value then u can.
+# 1. If u want to make restriction on props key/value then u can.
 
 <h3>Syntax</h3>
-
-# Syntax
 import PropTypes from 'prop-types'
 function Comp(props){
     return(
@@ -26,7 +24,6 @@ function Comp(props){
 }
 
 <h3>Syntax</h3>
-
 Comp.propTypes = {
     keyName : PT.string,
     keyName : PT.number,
@@ -36,10 +33,9 @@ Comp.propTypes = {
     ...
 }
 
-2. If u want ki ye key/value to aani hi chahiye then.
+# 2. If u want ki ye key/value to aani hi chahiye then.
 
 <h3>Syntax</h3>
-
 Comp.propTypes = {
     keyName : PT.string,
     keyName : PT.number,
@@ -49,18 +45,13 @@ Comp.propTypes = {
     ...
 }
 
-3. Default Props,
+# 3. Default Props,
 
 <h3>Syntax</h3>
-
 Comp.defaultProps = {
     keyName : "Yash",
     keyName : 1610,
     ...
 }
 
-<<<<<<< HEAD
-4. If u not follow this step then console give warning.
-=======
---> If u not follow this step then console give warning.
->>>>>>> 6b9ea343a4c45640ff8b9afc90f6691642605ba8
+# 4. If u not follow this step then console give warning.
