@@ -30,8 +30,7 @@ Currently, two official plugins are available:
 3. This method exists for rare use cases where the state depends on changes in props over time. 
 4. This method does not have access to the component instance.
 5. As its static method so "this" is not avilabel inside this method.
-6. Jyare apde state ke props in value koi event na through
-change kariye to ae potana component ma chnage thay jay , but koi child ke parent ke extend karto hoy to aema nai thay , so thats why we use this method.
+6. Jyare apde state ke props in value koi event na through change kariye to ae potana component ma change thay jay , but koi child ke parent ke extend karto hoy to aema nai thay , so thats why we use this method.
 
 <h3>Syntax</h3>
 
