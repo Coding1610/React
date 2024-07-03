@@ -39,7 +39,7 @@ static getDerivedStateFromProps(props,state){}
 # _shouldComponentUpdate()_
 
 1. It it use to Let React know if a component's output is not affected by the current change in state or props.
-2. It means should React re-render or it cann skip rendering.
+2. It means should React re-render or it can skip rendering.
 3. it invoked before render() when new props or state are being received.
 4. It Return TRUE by default.
 5. render() will not be invoked if it Return FALSE.
@@ -61,11 +61,11 @@ shouldComponentUpdate(nextProps,nextState){}
 4. String and Numbers : These are rendered as text nodes in the DOM.
 5. Booleans or null : It renders nothing.
 
-3. The render() method/function should be pure, Meaning that it does not modify Component State ,it return the same result each time it's invoked, and it does not directly interact with the browser.
+3. The render() method/function should be pure, Meaning that it does not modify Component State , it return the same result each time it's invoked, and it does not directly interact with the browser.
 
 # _getSnapshotBeforeUpdate()_
 
-1. This method is called right before the virtual DOM is about to make chnage to the DOM (Before DOM is updated).
+1. This method is called right before the virtual DOM is about to make change to the DOM (Before DOM is updated).
 2. Which allows our components to capture the current values or some information from the DOM(ex. Scroll Position) before it is potentially changed.
 3. Any value returned by this lifecycle will pe passed as third parameter to componentDidUpdate(){}.
 
