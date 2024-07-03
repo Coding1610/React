@@ -22,4 +22,4 @@ Each Component has several "Lifecycle Methods" that you can override to run code
 2. Updating
 3. Unmounting
 
-Only use in Class Components.
+Only Use In Class Components.
