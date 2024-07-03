@@ -23,4 +23,4 @@ Each Component has several "Lifecycle Methods" that you can override to run code
 3. Error Handling
 4. Unmounting
 
-Only Use In Class Components.
+It is only use in Class Components.
