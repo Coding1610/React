@@ -23,7 +23,6 @@ Currently, two official plugins are available:
 # _Bad Practice_
 
 <h3>Syntax</h3>
-
 const arrayName = useState("Yash");
 1. Access Value : arrayName[0];
 2. Access Function : arrayName[1];
@@ -31,7 +30,6 @@ const arrayName = useState("Yash");
 # _Good Practice_
 
 <h3>Syntax</h3>
-
 const [name,setName] = useState("Yash");
 
 Here state value is string , number , bool , object , array  anything..
