@@ -22,7 +22,6 @@ Currently, two official plugins are available:
 <React.StrictMode>
  <App/>
 <React.StrictMode>
-
 <br>
 
 # StrickMode currently helps with : 
