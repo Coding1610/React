@@ -29,16 +29,16 @@ Currently, two official plugins are available:
 4. With JSX you pass a function as the evennt handler , rather than a string.
 
 <h3>Syntax</h3>
-<button onClick = {functionName}> Click Me </button> // Function Coomp.
+<onClick = {functionName}> Click Me </> // Function Coomp.
 <br>
-<button onClick = {this.functionName}> Click Me </button> // Class Comp.
+<onClick = {this.functionName}> Click Me </> // Class Comp.
 
 5. In class comp. , function create karne ke liye function keyword likhna nahi hai.
 6. Normal you use Funtion Comp. but when u want to play with state then u need to use Class Comp.
 7. Koi bhi elemnt ka Default Event ko Stop karne ke liye,
 
 <h3>Syntax</h3>
-1. In HTML : <a href="#" onclick="function();return false">Click </a>
+1. In HTML : < href="#" onclick="function();return false">Click </>
 <br>
 2. In React :   function functionName(e){
                     e.preventDefault();
@@ -51,12 +51,12 @@ Currently, two official plugins are available:
 
 1. Arrow Function
 <h3>Syntax</h3>
-<button onClick = {(event) => this.functionName(id1,id2,id3...,event)}> Click Me </button>
+<onClick = {(event) => this.functionName(id1,id2,id3...,event)}> Click Me </>
 <br>
 
 3. Bind Method
 <h3>Syntax</h3>
-<button onClick = {this.functionName.bind(this,id)}> Click Me </button>
+<onClick = {this.functionName.bind(this,id)}> Click Me </>
 <br>
 
 1. Here in both case id is our State , Props or Data
