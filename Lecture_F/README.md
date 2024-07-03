@@ -16,9 +16,13 @@ Currently, two official plugins are available:
 
 <h3>Example</h3>
 1. Clicking an elemnt.
+<br>
 2. Submitting a form.
+<br>
 3. Scrolling Page.
+<br>
 4. Hovering an Elemnt.
+<br>
 
 2. Handling events with React element is very similat to handling events on DOM elements. There are some syntactic differences.
 3. React events are named using camelCase, rather than lowercase.
@@ -55,9 +59,7 @@ Currently, two official plugins are available:
 <button onClick = {this.functionName.bind(this,id)}> Click Me </button>
 <br>
 
-1. Class Comp. me Normal function create karishu to aema "this" keyword no use nai kari sakiye , ae mate constructor ma this.handleClick = this.handleClick.bind(this);
-2. And Arrow Function me aese hi use kar sakate haii.
-3. Here in both case id is our State , Props or Data
-4. Here in arrow function "event" is React Event with property.
-5. And in Bind Method "event" pass automatic. 
-6. In normal case if we pass para/arg using () then automatic at the time render method call ho jayega. So we can not pass like this.
+1. Here in both case id is our State , Props or Data
+2. Here in arrow function "event" is React Event with property.
+3. And in Bind Method "event" pass automatic. 
+4. In normal case if we pass para/arg using () then automatic at the time render method call ho jayega. So we can not pass like this.
