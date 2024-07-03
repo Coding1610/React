@@ -6,7 +6,7 @@
 1. Mounting is the Process of creating an element and intering it in a DOM tree.
 
 # Updating 
-1. Updating is the Process of changing State or Props of Component and update changes to nodes already int the DOM.
+1. Updating is the Process of changing State or Props of Component and update changes to nodes already into the DOM.
 
 # Error Handling
 1. There are used when there is error during rendering, in lifecycle method or in the constructor of any child component.
