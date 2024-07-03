@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 
 # _Lifecycle Method : Updating_
 
-1. Updating is the process of chnaging state and props of component and update changes to nodes already in the DOM.
+1. Updating is the process of changing state and props of component and update changes to nodes already in the DOM.
 2. An Update can be caused by changes to props or state. These methods are called in the following order when a component is being re-rendered,
 
 <h3>Methods</h3>
