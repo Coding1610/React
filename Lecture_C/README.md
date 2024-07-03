@@ -20,6 +20,7 @@ Currently, two official plugins are available:
 6. It also allows React to show more useful error and warning messages.
 
 <h3> Example <h3>
+  
 Babel Parse A to B
 <br>
 
