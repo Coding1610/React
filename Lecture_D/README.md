@@ -15,7 +15,6 @@ Currently, two official plugins are available:
 # 1. If u want to make restriction on props key/value then u can.
 
 <h3>Syntax</h3>
-``` JavaScript
 import PropTypes from 'prop-types'
 function Comp(props){
     return(
@@ -23,7 +22,6 @@ function Comp(props){
         </>
     )
 }
-```
 <br>
 Comp.propTypes = {
     keyName : PT.string,
