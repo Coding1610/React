@@ -21,6 +21,7 @@ Currently, two official plugins are available:
 
 <h3> Example <h3>
 Babel Parse A to B
+<br>
 
 A. const el = <h1Tag>Hello Yash</h1Tag>
 <br>
