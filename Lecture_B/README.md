@@ -14,7 +14,7 @@ Currently, two official plugins are available:
 
 # 1. Functional Components
 
-<h3> Synax <h3>
+<h3> Syntax <h3>
 function Comp_Name(props){
         return(
             <>
@@ -29,7 +29,7 @@ function Comp_Name(props){
 
 # 2. Class Components
 
-<h3> Synax <h3>
+<h3> Syntax <h3>
 class Comp_Name extends PureComponent{
         render(){
             return(
@@ -46,7 +46,7 @@ class Comp_Name extends PureComponent{
 
 # 3. Composing Components
 
-<h3> Synax <h3>
+<h3> Syntax <h3>
 function App(){
     return(
         <>
@@ -71,7 +71,7 @@ function App(){
 
 # 6. Props
 
-<h3> Synax <h3>
+<h3> Syntax <h3>
 function Component(props){
     return(
         <h1> hello {props.name} </h1>
