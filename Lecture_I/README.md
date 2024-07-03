@@ -16,7 +16,6 @@ Currently, two official plugins are available:
 2. Following methods are called in the following order when an instance of a componenet is being created and inserted into the DOM.
 
 <h3>Methods</h3>
-
 1. constructor()
 2. static getDerivedStateFromProps() [rarely use]
 3. render()
@@ -30,7 +29,6 @@ Currently, two official plugins are available:
 4. State & Bind Method no use avto hoy to j Con. banavvu nai to dur rehvu.
 
 <h3>Syntax</h3>
-
 constructor(props){
     super(props);
     this.state={
@@ -50,7 +48,6 @@ constructor(props){
 5. As its static method so "this" is not available inside this method.
 
 <h3>Syntax</h3>
-
 static getDerivedStateFromProps(props,state){}
 
 # _render()_
@@ -59,7 +56,6 @@ static getDerivedStateFromProps(props,state){}
 2. It return ont of the following types.
 
 <h3>Example</h3>
-
 1. React Element :  There are created via JSX.
 2. Array and Fragment : It is return multiple elements from render.
 3. Portals : It is used to render children into a diffrent DOM subtree.
