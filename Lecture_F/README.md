@@ -59,7 +59,7 @@ Currently, two official plugins are available:
 <onClick = {this.functionName.bind(this,id)}> Click Me </>
 <br>
 
-1. Here in both case id is our State , Props or Data
+1. Here in both case id is our State , Props or Data.
 2. Here in arrow function "event" is React Event with property.
 3. And in Bind Method "event" pass automatic. 
 4. In normal case if we pass para/arg using () then automatic at the time render method call ho jayega. So we can not pass like this.
