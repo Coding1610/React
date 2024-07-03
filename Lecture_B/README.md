@@ -63,7 +63,7 @@ function App(){
 
 # 4. When Use Function Comp.
 
-1. Use functional comp if u arre writing a presentational comp. which does not have its own state or needs to access a lifecycle hook. You cannot use setState() in ur comp. because Functional Comp. are plain JavaScript Function.
+1. Use functional comp if u are writing a presentational comp. which does not have its own state or needs to access a lifecycle hook. You cannot use setState() in your comp. because Functional Comp. are plain JavaScript Function.
 
 # 5. When Use Class Comp.
 
@@ -74,7 +74,7 @@ function App(){
 <h3> Syntax <h3>
 function Component(props){
     return(
-        <h1> hello {props.name} </h1>
+        <tag> hello {props.name} </tag>
     )
 }
         
