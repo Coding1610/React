@@ -13,7 +13,7 @@ Currently, two official plugins are available:
 # _Lifecycle Methods : Mounting_
 
 1. Mounting is the process of creating an element and inserting it in a DOM Tree.
-2. Following methods are called in the following order whne an instance of a componenet is being created and inserted into the DOM.
+2. Following methods are called in the following order when an instance of a componenet is being created and inserted into the DOM.
 
 <h3>Methods</h3>
 
