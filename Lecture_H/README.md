@@ -20,6 +20,7 @@ Each Component has several "Lifecycle Methods" that you can override to run code
 
 1. Mounting
 2. Updating
-3. Unmounting
+3. Error Handling
+4. Unmounting
 
 Only Use In Class Components.
