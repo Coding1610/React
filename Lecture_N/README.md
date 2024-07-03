@@ -21,7 +21,7 @@ Currently, two official plugins are available:
 2. useEffect(Function,Array)
 
 3. The function passed to hook will run after render is committed to the screen.
-4. Second Argument yo hook that is the array of values that the effect depends on.
+4. Second Argument to hook that is the array of values that the effect depends on.
 5. You can call useEffect as many times as you want.
 
 <h3>Syntax</h3>
