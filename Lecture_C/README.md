@@ -28,11 +28,11 @@ A. const el = <> Hello Yash </>
 <br>
 B. React.CreateElement("h1" , null , "Hello Yash");
 
-A. const el = <h1Tag className = "bg" > Hello </h1Tag>
+A. const el = < className = "bg" > Hello </>
 <br>
 B. ("h1" , {className:"bg"} , "Hello");
 
-A. const el = <h1Tag> Hello {name} </h1Tag>
+A. const el = <> Hello {name} </>
 <br>
 B. ("h1" , null , "Hello" , name );
 
@@ -51,7 +51,7 @@ B. (Component , {name:"Yash"}); <Component/>
 # _3. Specifying Attributes with JSX_
 
 1. You may use quotes to specify string literals as attributes.
-2. <tag attributeName = "value"> Hello </tag>.
+2. < attributeName = "value"> Hello </>.
 3. Since JSX is closer to JS than to HTML , React DOM uses camelCase Property naming Convention insted of HTML attribute names.
 
 # _4. Children in JSX_
