@@ -47,7 +47,7 @@ constructor(props){
 2. It should return an object to update the state, or null to update nothing. 
 3. This method exists for rare use cases where the state depends on changes in props over time. 
 4. This method does not have access to the component instance.
-5. As its static method so "this" is not avilabel inside this method.
+5. As its static method so "this" is not available inside this method.
 
 <h3>Syntax</h3>
 
@@ -78,7 +78,6 @@ static getDerivedStateFromProps(props,state){}
 6. The API calls should be made in componentDidMount method Always.
 
 <h3>Syntax</h3>
-
 componentDidMount(){}
 
 Execution sequence of this 4 method,
