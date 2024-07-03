@@ -15,10 +15,6 @@ Currently, two official plugins are available:
 1. Unmounting is the process of removing component from DOM.
 2. The method is called when a component is being removed from the DOM,
 
-<h3>Syntax</h3>
-
-componentWillUnmount()
-
 # _componentWillUnmount()_
 
 1. It is invoked immediately before a component is unmounted and destroyed.
@@ -26,5 +22,4 @@ componentWillUnmount()
 3. This is executed just before the component get removed from the DOM.
 
 <h3>Syntax</h3>
-
 componentWillUnmount(){}
