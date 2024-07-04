@@ -14,4 +14,4 @@ Currently, two official plugins are available:
 
 1. State ke data ka access hum us class me hi kar sakte hai jisme create hua hai because state has local scope.
 2. When we want to access same state data in parent or child class then we pass data as "props".
-3. This senario is called Lifting State up. 
+3. This senario is called Lifting State Up.
