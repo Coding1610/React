@@ -7,7 +7,6 @@
 3. In React, Mutable(changeable) state is typically kept in the state property of components, and only updated with setState().
 
 <h3>Example</h3>
-
 1. Controlled Component
 2 .Uncontrolled Component
 
