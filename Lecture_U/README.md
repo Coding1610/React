@@ -5,7 +5,7 @@
 1. HTML form elements work a little bit differently from other DOM elements in React, because form elements naturally keep some internal state.
 2. In HTML, form elements such as <input> , <textarea> , <select> typically maintain their own state and update it based on user input.
 3. In React, Mutable(changeable) state is typically kept in the state property of components, and only updated with setState().
-<br>
+<br/>
 
 <h3>Example</h3>
 1. Controlled Component
