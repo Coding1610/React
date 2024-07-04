@@ -8,11 +8,8 @@
 <br/>
 
 <h3>Example</h3>
-{
-
-    1. Controlled Component
-    2 .Uncontrolled Component
-}
+1. Controlled Component
+2. Uncontrolled Component
 
 # _Controlled Component_
 
