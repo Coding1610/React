@@ -14,7 +14,7 @@ Currently, two official plugins are available:
 
 1. Conditional Rendering in React works the same way conditions work in JS.
 2. Use JS operator like if or the conditional(ternary) operator to create element representing the current state, and let React update the UI to match them.
-3. if and else-if statements don't work inside JSX. This is Because JSX is just syntactic sugar for function class and object construction.
+3. if and else-if statements don't work inside JSX. This is Because JSX is just syntactic sugar for function , class and object construction.
 4. render() return one element.
 
 # _If Statement_
