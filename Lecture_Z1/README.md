@@ -17,12 +17,16 @@ Currently, two official plugins are available:
 3. A HOC is a function that takes a component and returns a new component.
 
 <h3>Syntax</h3>
+{
 
-const newComponentName = hocFuncctionName( oldComponentName , otherParameters){ return something };
+    const newComponentName = hocFuncctionName( oldComponentName , otherParameters){ return something };
+}
 
 <h3>Example</h3>
+{
 
-const EnhancedComponent = higherOrderComponent(WrappedComponent);
-const MicrosoftJob = withLanguage(ReactJS);
-const Army = witArmy(Men){training};
-const Army = (Men) => {training};
+    const EnhancedComponent = higherOrderComponent(WrappedComponent);
+    const MicrosoftJob = withLanguage(ReactJS);
+    const Army = witArmy(Men){training};
+    const Army = (Men) => {training};
+}
