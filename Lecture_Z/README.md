@@ -92,4 +92,10 @@ Currently, two official plugins are available:
 # _Context Type_
 
 1. The contextType property on a class be assigned a Context object created by React.createContext().
-2. This lets you consume the nearest current value of that Context type using this.context / static contextType = myContext;
+2. This lets you consume the nearest current value of that Context type using this.context.
+
+<h3>Syntax</h3>
+{
+
+    static contextType = myContext;
+}
