@@ -36,11 +36,11 @@ Currently, two official plugins are available:
 <h3>Syntax</h3>
 {
 
-    map( callback( currValue , index , array ) , thisArg );
+    arr.map( callback( currValue , index , array ) , thisArg );
 }
 
 <h3>Example</h3>
 {
 
-    map((num,index) => {return num});
+    arr.map((num,index) => {return num});
 }
