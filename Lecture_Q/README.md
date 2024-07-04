@@ -15,14 +15,16 @@ Currently, two official plugins are available:
 1. You can build collections of elements and include them in JSX using curly braces {}.
 
 <h3>Example</h3>
-const arr = [1,2,3,4,5];
-state = {
+{
 
-    user : [{ id:12 , name:"Yash" , password:"ypfh7@#$16" },
-            { id:42 , name:"Man" , password:"mpfh7@#$07" },
-            { id:62 , name:"Jaimin" , password:"jufh7@#$2" }
-            ],
-    isLoggedIn : false
+    const arr = [1,2,3,4,5];
+    state = {
+        user :  [{ id:12 , name:"Yash" , password:"ypfh7@#$16" },
+                { id:42 , name:"Man" , password:"mpfh7@#$07" },
+                { id:62 , name:"Jaimin" , password:"jufh7@#$2" }
+                ],
+        isLoggedIn : false
+    }
 }
 
 
