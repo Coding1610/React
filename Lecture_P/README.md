@@ -20,7 +20,6 @@ Currently, two official plugins are available:
 # _If Statement_
 
 <h3>Syntax</h3>
-
 if(condition){
     return something;
 }
@@ -43,7 +42,6 @@ if(condition){
 # _If Else Statement_
 
 <h3>Syntax</h3>
-
 if( condition true ){
     return;
 }
@@ -54,7 +52,6 @@ else{
 # _Inline If Else with Logical Op._
 
 <h3>Syntax</h3>
-
 Condition ? Expression_1 : Expression_2
 
 1. Use can write in JSX.
@@ -63,15 +60,12 @@ Condition ? Expression_1 : Expression_2
 # _IIFE's_
 
 <h3>Syntax</h3>
-
 return (
     <>
     <div>
         {
             ( () => {
-
                 your code
-
             } )()
         }
     </div>
