@@ -22,9 +22,11 @@ Currently, two official plugins are available:
 4. Normally we recommend importing stylesheets, images and fonts from JS.
 
 <h3>Syntax</h3>
+{
 
-<link rel="shortcut icon" href="%PPUBLIC_URL%/favicon.icon
-<img href="%PUBLIC_URL%/Images/pic.jpg" alt="Mypic"/>
+    <link rel="shortcut icon" href="%PPUBLIC_URL%/favicon.icon
+    <img href="%PUBLIC_URL%/Images/pic.jpg" alt="Mypic"/>
+}
 
 5. None of the files in public folder get post-processed or minified.
 6. Missing files will not be called at compilation time, and will cause 404 errors for your users.
@@ -38,17 +40,19 @@ Currently, two official plugins are available:
 4. Some library may be incompatible with Webpack and you have no other option but to include it as a <script> tags.
 
 <h3>Syntax</h3>
+{
 
-Public Folder -> index.html
-<img src="%PUBLIC_URL%/pic.jpg"/>
-<img src="%PUBLIC_URL%/Images/pic.jpg"/>
-
+    Public Folder -> index.html
+    <img src="%PUBLIC_URL%/pic.jpg"/>
+    <img src="%PUBLIC_URL%/Images/pic.jpg"/>
+}
 <h3>Syntax</h3>
+{
 
-Public Folder -> app.js
-<img src={process.env.PUBLIC_URL + "/pic.jpg"}/>
-<img src={process.env.PUBLIC_URL + "/Images/pic.jpg"/>
-
+    Public Folder -> app.js
+    <img src={process.env.PUBLIC_URL + "/pic.jpg"}/>
+    <img src={process.env.PUBLIC_URL + "/Images/pic.jpg"/>
+}
 
 # Inside src Folder
 
@@ -59,15 +63,19 @@ Public Folder -> app.js
 5. As the src attribute of an images or the href of a link to a PDF.
 
 <h3>Example</h3>
+{
 
-1. Scripts and stylesheets get minified and bundle together to avoid extra network requests.
-2. Missing files cause compilation error instead of 404 erros for your users.
-3. Result filenames include content hashes so you don't need to worry about browsers caching their old versions.
+    1. Scripts and stylesheets get minified and bundle together to avoid extra network requests.
+    2. Missing files cause compilation error instead of 404 erros for your users.
+    3. Result filenames include content hashes so you don't need to worry about browsers caching their old versions.
+}
 
 <h3>Syntax</h3>
+{
 
-App.js
-import pic from './pic.jpg'
-<img src={pic} alt="Mypic"/>
+    App.js
+    import pic from './pic.jpg'
+    <img src={pic} alt="Mypic"/>
+}
 
 6. This ensure that when the project i built, Webpack will correctly move the images into the build folder, and provide us with correct paths.
