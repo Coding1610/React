@@ -34,7 +34,13 @@ Currently, two official plugins are available:
 2. map calls a provided callback function once for each element in an array, in order and returns a new array from the result.
 
 <h3>Syntax</h3>
-map( callback( currValue , index , array ) , thisArg );
+{
+
+    map( callback( currValue , index , array ) , thisArg );
+}
 
 <h3>Example</h3>
-map((num,index) => {return num});
+{
+
+    map((num,index) => {return num});
+}
