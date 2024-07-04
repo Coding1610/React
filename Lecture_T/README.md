@@ -51,7 +51,7 @@ Currently, two official plugins are available:
 
     Public Folder -> app.js
     <img src={process.env.PUBLIC_URL + "/pic.jpg"}/>
-    <img src={process.env.PUBLIC_URL + "/Images/pic.jpg"/>
+    <img src={process.env.PUBLIC_URL + "/Images/pic.jpg"}/>
 }
 
 # Inside src Folder
