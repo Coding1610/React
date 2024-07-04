@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 
 # _Controlled Component_
 
-1. Form has the default HTML form behavior of browsing to a new page when the user submits the form. Ifyou want this behavior in React, it just works.
+1. Form has the default HTML form behavior of browsing to a new page when the user submits the form. If you want this behavior in React, it just works.
 2. But in most cases, it's convienient to have a JS function entered into the form.
 3. The standard way to achieve this is with a technique called "Controlled Component".
 
