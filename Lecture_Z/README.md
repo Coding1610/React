@@ -24,7 +24,7 @@ Currently, two official plugins are available:
 # _Context API_
 
 1. Context provides a way to pass data through the component tree without having to pass props down manually at every level.
-2. In atypical React application, data is passed top-down(parent-child) via props, but this can be cumbersome for certain types of props that are required by many components within an application.
+2. In a typical React application, data is passed top-down(parent-child) via props, but this can be cumbersome for certain types of props that are required by many components within an application.
 3. Passing the inital state to React.createContext. 
 4. This function then return an Object with a "Provider" and "Consumer".
 5. Using the Provider component at the top of the tree and making it accept a prop called value. This value can be anything.
@@ -33,7 +33,7 @@ Currently, two official plugins are available:
 # _Create Context_
 
 1. It creates a Context Object.
-2. When React renders a component that subscribes to this Context Object it will read the current context vaue from closest matching Provider above it in the tree.
+2. When React renders a component that subscribes to this Context Object it will read the current context value from closest matching Provider above it in the tree.
 
 <h3>Syntax</h3>
 {
