@@ -25,4 +25,4 @@ Currently, two official plugins are available:
 
 1. A good rule of thumb is elements inside the map() call need keys.
 2. Key should be specified inside the array.
-3. Key is not props.
+3. Key is not Props.
