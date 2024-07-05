@@ -90,7 +90,7 @@ Currently, two official plugins are available:
     componentDidMount(){}
 }
 
-Execution sequence of this 4 method,
+Execution sequence of this 4 method.
 {
 
     constructor(){} -> static getDerivedStateFromProps(state,props){} -> render(){} -> componentDidMount(){}
