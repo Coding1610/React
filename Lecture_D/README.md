@@ -15,42 +15,54 @@ Currently, two official plugins are available:
 # 1. If u want to make restriction on props key/value then u can.
 
 <h3>Syntax</h3>
-import PropTypes from 'prop-types'
-function Comp(props){
-    return(
-        <>
-        </>
-    )
+{
+
+    import PropTypes from 'prop-types'
+    function Comp(props){
+        return(
+            <>
+            </>
+        )
+    }
 }
-<br>
-Comp.propTypes = {
-    keyName : PT.string,
-    keyName : PT.number,
-    keyName : PT.func,
-    keyName : PT.bool,
-    keyName : PT.array
-    ...
+
+{
+
+    Comp.propTypes = {
+        keyName : PT.string,
+        keyName : PT.number,
+        keyName : PT.func,
+        keyName : PT.bool,
+        keyName : PT.array
+        ...
+    }
 }
 
 # 2. If u want ki ye key/value to aani hi chahiye then.
 
 <h3>Syntax</h3>
-Comp.propTypes = {
-    keyName : PT.string,
-    keyName : PT.number,
-    keyName : PT.func.isRequired,
-    keyName : PT.bool,
-    keyName : PT.array
-    ...
+{
+
+    Comp.propTypes = {
+        keyName : PT.string,
+        keyName : PT.number,
+        keyName : PT.func.isRequired,
+        keyName : PT.bool,
+        keyName : PT.array
+        ...
+    }
 }
 
 # 3. Default Props,
 
 <h3>Syntax</h3>
-Comp.defaultProps = {
-    keyName : "Yash",
-    keyName : 1610,
-    ...
+{
+
+    Comp.defaultProps = {
+        keyName : "Yash",
+        keyName : 1610,
+        ...
+    }
 }
 
 # 4. If u not follow this step then console give warning.
