@@ -30,8 +30,8 @@ Currently, two official plugins are available:
 <h3>Syntax</h3>
 {
 
-    <onClick = {functionName}> Click Me </> // Function Coomp.
-    <onClick = {this.functionName}> Click Me </> // Class Comp.
+    <onClick = {functionName}> Click Me </>  // Function Coomp.
+    <onClick = {this.functionName}> Click Me </>  // Class Comp.
   }
 
 5. In class comp. , function create karne ke liye function keyword likhna nahi hai.
