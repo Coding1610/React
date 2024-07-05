@@ -17,8 +17,8 @@ Currently, two official plugins are available:
 
 <h3>Syntax</h3>
 
-1. useEffect(Function)
-2. useEffect(Function,Array)
+    useEffect(Function){}
+    useEffect(Function,Array){}
 
 3. The function passed to hook will run after render is committed to the screen.
 4. Second Argument to hook that is the array of values that the effect depends on.
@@ -26,7 +26,7 @@ Currently, two official plugins are available:
 
 <h3>Syntax</h3>
 
-useEffect( () => { functionCall() } , [depe_1 , depe_2 , depe_3 ..] );
+    useEffect( () => { functionCall() } , [depe_1 , depe_2 , depe_3 ..] );
 
 6. Page Load hone pe first time call hoga & Change of any dependencies par call hoga.
 7. It is call functionCall() on change of every Dependencies.
