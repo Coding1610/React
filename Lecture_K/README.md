@@ -22,4 +22,5 @@ Currently, two official plugins are available:
 3. This is executed just before the component get removed from the DOM.
 
 <h3>Syntax</h3>
-componentWillUnmount(){}
+
+    componentWillUnmount(){}
