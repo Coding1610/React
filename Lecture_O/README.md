@@ -22,5 +22,5 @@ Currently, two official plugins are available:
 
 <h3>Syntax</h3>
 
-1. Custom Hook : { function useSomething(){return;} }
-2. Use Of Custom Hook : { const data = useSomething(); } 
+    Custom Hook : { function useSomething(){return;} }
+    Use Of Custom Hook : { const data = useSomething(); } 
