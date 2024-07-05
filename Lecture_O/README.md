@@ -18,7 +18,7 @@ Currently, two official plugins are available:
 
 # _Creating Custom Hook_
 
-1. A custom Hook is a JS function whose name starts with "use" and that may call other Hooks.
+1. A custom Hook is a JavaScript function whose name starts with "use" and that may call other Hooks.
 
 <h3>Syntax</h3>
 
