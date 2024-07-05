@@ -85,8 +85,9 @@ Currently, two official plugins are available:
 6. The API calls should be made in componentDidMount method Always.
 
 <h3>Syntax</h3>
+{
 
     componentDidMount(){}
-
+}
 Execution sequence of this 4 method.
 constructor(){} -> static getDerivedStateFromProps(state,props){} -> render(){} -> componentDidMount(){}
