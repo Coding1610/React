@@ -17,11 +17,11 @@ Currently, two official plugins are available:
 
 <h3>Methods</h3>
 
-1. static getDerivedStateFromProps() [rarely use]
-2. shouldComponentUpdate() [rarely use]
-3. render()
-4. getSnapshotBeforeUpdate() [rarely use]
-5. componentDidUpdate()
+    1. static getDerivedStateFromProps() [rarely use]
+    2. shouldComponentUpdate() [rarely use]
+    3. render()
+    4. getSnapshotBeforeUpdate() [rarely use]
+    5. componentDidUpdate()
 
 # _static getDerivedStateFromProps()_
 
@@ -34,7 +34,7 @@ Currently, two official plugins are available:
 
 <h3>Syntax</h3>
 
-static getDerivedStateFromProps(props,state){}
+    static getDerivedStateFromProps(props,state){}
 
 # _shouldComponentUpdate()_
 
@@ -46,7 +46,7 @@ static getDerivedStateFromProps(props,state){}
 
 <h3>Syntax</h3>
 
-shouldComponentUpdate(nextProps,nextState){}
+    shouldComponentUpdate(nextProps,nextState){}
 
 # _render()_
 
@@ -55,11 +55,11 @@ shouldComponentUpdate(nextProps,nextState){}
 
 <h3>Example</h3>
 
-1. React Element :  There are created via JSX
-2. Array and Fragment : It is return multiple elements from render.
-3. Portals : It is used to render children into a diffrent DOM subtree.
-4. String and Numbers : These are rendered as text nodes in the DOM.
-5. Booleans or null : It renders nothing.
+    1. React Element :  There are created via JSX
+    2. Array and Fragment : It is return multiple elements from render.
+    3. Portals : It is used to render children into a diffrent DOM subtree.
+    4. String and Numbers : These are rendered as text nodes in the DOM.
+    5. Booleans or null : It renders nothing.
 
 3. The render() method/function should be pure, Meaning that it does not modify Component State , it return the same result each time it's invoked, and it does not directly interact with the browser.
 
@@ -71,7 +71,7 @@ shouldComponentUpdate(nextProps,nextState){}
 
 <h3>Syntax</h3>
 
-getSnapshotBeforeUpdate(prevProps,prevState){}
+    getSnapshotBeforeUpdate(prevProps,prevState){}
 
 # _componentDidUpdate()_
 
@@ -82,6 +82,6 @@ getSnapshotBeforeUpdate(prevProps,prevState){}
 
 <h3>Syntax</h3>
 
-componentDidUpdate(prevProps,prevState,snapshot){}
+    componentDidUpdate(prevProps,prevState,snapshot){}
 
 render() , getSnapshotBeforeUpdate() , componentDidUpdate() It will not invoked if shouldComponentUpdate() return false.
