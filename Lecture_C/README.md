@@ -23,26 +23,23 @@ Currently, two official plugins are available:
   
 Babel Parse A to B
 <br>
+{
 
-A. const el = <> Hello Yash </>
-<br>
-B. React.CreateElement("h1" , null , "Hello Yash");
+    const el = <> Hello Yash </>
+    React.CreateElement("h1" , null , "Hello Yash");
 
-A. const el = < className = "bg" > Hello </>
-<br>
-B. ("h1" , {className:"bg"} , "Hello");
+    const el = < className = "bg" > Hello </>
+    React.CreateElement("h1" , {className:"bg"} , "Hello");
 
-A. const el = <> Hello {name} </>
-<br>
-B. ("h1" , null , "Hello" , name );
-
-A. const el = <Component/>
-<br>
-B. (Component , null);
-
-A. const el = <Component name="Yash"/>
-<br>
-B. (Component , {name:"Yash"}); <Component/>
+    const el = <> Hello {name} </>
+    React.CreateElement("h1" , null , "Hello" , name );
+    
+    const el = <Component/>
+    React.CreateElement(Component , null);
+    
+    const el = <Component name="Yash"/>
+    React.CreateElement(Component , {name:"Yash"}); <Component/>
+}
 
 # _2. JS Expressions_ 
 
