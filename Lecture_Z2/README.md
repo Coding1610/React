@@ -30,7 +30,8 @@ Currently, two official plugins are available:
 3. Use this method to render a fallback UI after an error has been thrown.
 
 <h3> Syntax </h3>
-static getDerivedStateFromError(error){};
+
+    static getDerivedStateFromError(error){};
 
 # _componentDidCatch()_
 
@@ -38,4 +39,5 @@ static getDerivedStateFromError(error){};
 2. Use this method to log error information.
 
 <h3> Syntax </h3>
-componentDidCatch(error,information){};
+
+    componentDidCatch(error,information){};
