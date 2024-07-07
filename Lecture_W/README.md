@@ -37,23 +37,19 @@ Currently, two official plugins are available:
 2. Ref's are commonly assigned to an instance property when a componenet is constructed so they can be referenced throughout the componenet.
 
 <h3>Syntax</h3>
-{
 
     this.myRef = React.createRef();
     render(){
         return <div ref={this.myRef}> </div>;
     }
-}
 
 # _Accessing Ref's_
 
 1. When a ref is passed to an element in render, a reference to the node becomes accessible at the current attribute of the ref.
 
 <h3>Syntax</h3>
-{
 
     const node = this.myRef.current;
-}
 
 2. React will assign the current property with the DOM element when the component Mounts, and assign it back to NULL when it Unmount.
 3. The value of the ref depending on type of the node :
