@@ -14,17 +14,13 @@ Currently, two official plugins are available:
 
 # 1. Arg : Object
 <h3>Syntax</h3>
-{
 
     this.setState({key:"value"});
-}
 
 # 2. Arg : Function
 <h3>Syntax</h3>
-{
 
     this.setState(function(state,props){});
-}
 
 1. It accepts a function rather than an object
 2. It recives the previous state as the first argument.
