@@ -17,7 +17,6 @@ Currently, two official plugins are available:
 3. The function recevies the React component instance of HTML DOM element as its argument, which can be stored and accessed elsewhere.
 
 <h3>Syntax</h3>
-{
 
     constructor(props){
         super(props);
@@ -28,4 +27,3 @@ Currently, two official plugins are available:
         this.newRef = e;
       }
     }
-}
