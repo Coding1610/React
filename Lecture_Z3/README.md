@@ -19,10 +19,10 @@ Currently, two official plugins are available:
 
 <h3> Syntax </h3>
 
-<React.StrictMode>
- <App/>
-<React.StrictMode>
-<br>
+    <React.StrictMode>
+    <App/>
+    <React.StrictMode>
+
 
 # StrickMode currently helps with : 
 
