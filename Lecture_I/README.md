@@ -16,13 +16,11 @@ Currently, two official plugins are available:
 2. Following methods are called in the following order when an instance of a componenet is being created and inserted into the DOM.
 
 <h3>Methods</h3>
-{
 
     1. constructor()
     2. static getDerivedStateFromProps() [rarely use]
     3. render()
     4. componentDidMount()
-}
 
 # _constructor()_
 
@@ -32,7 +30,6 @@ Currently, two official plugins are available:
 4. State & Bind Method no use avto hoy to j Con. banavvu nai to dur rehvu.
 
 <h3>Syntax</h3>
-{
 
     constructor(props){
         super(props);
@@ -43,7 +40,6 @@ Currently, two official plugins are available:
         }
         this.handleClick = this.handleClick.bind(this);
     }
-}
 
 # _static getDerivedStateFromProps()_
 
@@ -54,24 +50,21 @@ Currently, two official plugins are available:
 5. As its static method so "this" is not available inside this method.
 
 <h3>Syntax</h3>
-{
 
     static getDerivedStateFromProps(props,state){}
-}
+
 # _render()_
 
 1. The render() method is the only required method in a class comp. It examines this.props & this.state.
 2. It return ont of the following types.
 
 <h3>Example</h3>
-{
 
     1. React Element :  There are created via JSX.
     2. Array and Fragment : It is return multiple elements from render.
     3. Portals : It is used to render children into a diffrent DOM subtree.
     4. String and Numbers : These are rendered as text nodes in the DOM.
     5. Booleans or null : It renders nothing.
-}
 
 3. The render() method/function should be pure, Meaning that it does not modify Component State ,it return the same result each time it's invoked, and it does not directly interact with the browser.
 
@@ -85,9 +78,8 @@ Currently, two official plugins are available:
 6. The API calls should be made in componentDidMount method Always.
 
 <h3>Syntax</h3>
-{
 
     componentDidMount(){}
-}
+    
 Execution sequence of this 4 method.
 constructor(){} -> static getDerivedStateFromProps(state,props){} -> render(){} -> componentDidMount(){}
