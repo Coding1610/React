@@ -50,7 +50,10 @@ Babel Parse A to B
 
 # _4. Children in JSX_
 
-1. In JSX expression that contain both an opening tag and a closing tag, the content between those tags in passed as a special prop,.
-2. prop : props.children.
-3. <tag> Yashu </tag>.
-4. Here children = "Yashu".
+1. In JSX expression that contain both an opening tag and a closing tag, the content between those tags in passed as a special prop.
+  <h3>Example</h3>
+  
+    prop : props.children.  
+    <tag> Yashu </tag>.  
+    Here children = "Yashu".
+    
