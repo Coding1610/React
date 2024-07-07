@@ -12,10 +12,7 @@ Currently, two official plugins are available:
 
 # _Lifting State Up_
 
-{
-
     [ Parent --> Child_1 --> Child_2 --> Child_3 --> .. --> Child_N ]
-}
 
 1. You want to pass data from Parent to Child_1 you can do easily with LSU.
 2. You also do from Parent to Child_N with the help of LSU , but here you pass data from Parent to Child_1 to Child_2 ( Every Child ). [Bad-Practice]
@@ -36,20 +33,16 @@ Currently, two official plugins are available:
 2. When React renders a component that subscribes to this Context Object it will read the current context value from closest matching Provider above it in the tree.
 
 <h3>Syntax</h3>
-{
 
     const myContext = React.createContext(ProviderDefaultValue);
-}
 
 3. ProviderDefaultValue = It is only used when a component does not have a matching Provider above it in the tree.
 
 <h3>Example</h3>
-{
 
     1. const myContext = React.createContext('Yashu');
     2. const myContext = React.createContext(false);
     3. const myContext = React.createContext({number:10,..});
-}
 
 # _Context Provider_
 
@@ -58,18 +51,14 @@ Currently, two official plugins are available:
 3. Providers can be nested to override values deeper within the tree.
 
 <h3>Syntax</h3>
-{
 
     <myContext.Provider value={some-value}/>
-}
 
 4. A value prop to be passed to consuming components that are descendants of this Provider.
 
 <h3>Syntax</h3>
-{
 
     <myContext.Provider value={this.state.name}>
-}
 
 # _Context Consumer_
 
@@ -79,13 +68,11 @@ Currently, two official plugins are available:
 4. If there is no Provider for this Context above, the value agrgument will be equal to the defaultValue that was passed to createContext().
 
 <h3>Syntax</h3>
-{
 
     <myContext.Consumer>
         { (value) => /* render something based on the context value */}
         { (valueName,functionName) => <> </>}
     </myContext.Consumer>       
-}
 
 5. valueName & functionName same as Parent Component 
 
@@ -95,7 +82,5 @@ Currently, two official plugins are available:
 2. This lets you consume the nearest current value of that Context type using this.context.
 
 <h3>Syntax</h3>
-{
 
     static contextType = myContext;
-}
