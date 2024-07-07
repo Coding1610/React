@@ -22,8 +22,6 @@ Currently, two official plugins are available:
 <h3> Example <h3>
   
 Babel Parse A to B
-<br>
-{
 
     const el = <> Hello Yash </>
     React.CreateElement("h1" , null , "Hello Yash");
@@ -39,7 +37,6 @@ Babel Parse A to B
     
     const el = <Component name="Yash"/>
     React.CreateElement(Component , {name:"Yash"}); <Component/>
-}
 
 # _2. JS Expressions_ 
 
@@ -48,7 +45,7 @@ Babel Parse A to B
 # _3. Specifying Attributes with JSX_
 
 1. You may use quotes to specify string literals as attributes.
-2. < attributeName = "value"> Hello </>.
+2. <attributeName = "value"> Hello </>.
 3. Since JSX is closer to JS than to HTML , React DOM uses camelCase Property naming Convention insted of HTML attribute names.
 
 # _4. Children in JSX_
