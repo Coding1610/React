@@ -15,15 +15,13 @@ Currently, two official plugins are available:
 # 1. Functional Components
 
 <h3> Syntax <h3>
-{
-        
+      
     function Comp_Name(props){
         return(
             <>
             </>
         )
     }
-}
 
 1. Comp. ae js function jevu j che.
 2. With arg. "Props(Object)".
@@ -33,7 +31,6 @@ Currently, two official plugins are available:
 # 2. Class Components
 
 <h3> Syntax <h3>
-{
         
     class Comp_Name extends PureComponent{
         render(){
@@ -43,7 +40,6 @@ Currently, two official plugins are available:
             )
         }
     }
-}
 
 1. Same as js class.
 2. No arg.
@@ -53,8 +49,7 @@ Currently, two official plugins are available:
 # 3. Composing Components
 
 <h3> Syntax <h3>
-{
-        
+       
     function App(){
         return(
         <>
@@ -65,7 +60,6 @@ Currently, two official plugins are available:
         </>
         )
     }
-}
 
 1. Components can refer to other components in thier output.
 2. This let us use the same output abstraction for any level of detail.
@@ -81,15 +75,12 @@ Currently, two official plugins are available:
 # 6. Props
 
 <h3> Syntax <h3>
-{
-        
+   
     function Component(props){
         return(
             <tag> hello {props.name} </tag>
         )
-    }
-} 
-{       
+    }      
 
     function App(){
         return(
@@ -98,7 +89,6 @@ Currently, two official plugins are available:
             </>
         )
     }
-}
 
 1. When React sees an element representing a user defined component, it passes JSX attribute to this Component as a single Object. We call this object "props".
 2. same for class & function.
