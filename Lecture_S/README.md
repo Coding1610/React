@@ -22,7 +22,6 @@ Currently, two official plugins are available:
 6. ex : WebkitTransition has an uppercase 'W'.
 
 <h3>Syntax</h3>
-{
 
     const btnStyle={
         color:'red',
@@ -32,7 +31,6 @@ Currently, two official plugins are available:
     <button style={btnStyle}> Click Me </button>
     btnStyle.color = 'orange'
     btnStyle.backgroundColor = 'Green'
-}
 
 # _2. External CSS_
 
@@ -42,21 +40,17 @@ Currently, two official plugins are available:
 4. It production, all CSS files will be concatenated intp a single minified .css file in the build output.
 
 <h3>Syntax</h3>
-{
 
     App.css
     .txt{
       color:'red'
     };
-}
 
 <h3>Syntax</h3>
-{
 
     App.jsx
     import './App.css'
     <h1 className="txt">Hello</h1>
-}
 
 # _3. CSS Module_
 
@@ -66,9 +60,7 @@ Currently, two official plugins are available:
 4. CSS files in which all class names and animation names are scoped locally by default.
 
 <h3>Syntax</h3>
-{
 
     fileName.module.css
     import styles from "./fileName.module.css";
     <h1 className={styles.classname}> Hello </h1>
-}
