@@ -15,7 +15,6 @@ Currently, two official plugins are available:
 1. You can build collections of elements and include them in JSX using curly braces {}.
 
 <h3>Example</h3>
-{
 
     const arr = [1,2,3,4,5];
     state = {
@@ -25,8 +24,6 @@ Currently, two official plugins are available:
                 ],
         isLoggedIn : false
     }
-}
-
 
 # _Iteration using map() Method_
 
@@ -34,13 +31,9 @@ Currently, two official plugins are available:
 2. map calls a provided callback function once for each element in an array, in order and returns a new array from the result.
 
 <h3>Syntax</h3>
-{
 
     arr.map( callback( currValue , index , array ) , thisArg );
-}
 
 <h3>Example</h3>
-{
 
     arr.map((num,index) => {return num});
-}
